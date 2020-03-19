@@ -1,7 +1,12 @@
 <template>
   <div class="card">
-    <img class="imgCard" src="@/assets/img/Code-Optimization.png">
-    <h3>{{title}}</h3>
+    <div>
+      <img class="imgCard" src="@/assets/img/Code-Optimization.png">
+      <h3>{{title}}</h3>
+    </div>
+    <div>
+      <p>{{description}}</p>
+    </div>
   </div>
 </template>
 
@@ -15,6 +20,10 @@ export default {
       type: String,
       default: () => ""
     },
+    description: {
+      type: String,
+      default: () => ""
+    },
   }
 }
 </script>
@@ -22,18 +31,23 @@ export default {
 <style lang="scss">
 .card {
   width: 100%;
-  height: 100px;
+  min-height: 200px;
   margin-top: 1rem;
   border: 1px solid #e0e0e0;
   border-radius: 8px;
   box-shadow: 0 0 2rem rgba(0,0,0,.3);
   background: #ffffff;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content:flex-start;
-	align-items: center;
-	align-content: center;
+  div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:flex-start;
+    align-items: center;
+    align-content: center;
+  p{
+    padding: 1rem;
+  }
+  }
   img{
     max-width: 80px;
   }

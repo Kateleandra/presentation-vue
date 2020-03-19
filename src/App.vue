@@ -27,8 +27,9 @@ ul{
   box-sizing: border-box;
 }
 body {
-font-family: "Noto Serif";
-background: linear-gradient(to right,  #1a1a1a 30%, #f5f5f5 30%);
+  font-family: "Noto Serif";
+  text-align: justify;
+  background: linear-gradient(to right,  #1a1a1a 30%, #f5f5f5 30%);
 }
 
 #app{
