@@ -78,6 +78,7 @@ export default {
     }
 }
 .about-me{
+  min-width: 100%;
   display: flex;
   justify-content: center;
   p{

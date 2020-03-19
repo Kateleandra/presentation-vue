@@ -1,9 +1,18 @@
 # presentation
 
-## Project setup
+## Projeto em Vuejs
 ```
-npm install
+Abrir pelo terminar a repositório "presentation" executar:
+npm install ou yarn
 ```
+Logo em seguida comando:
+
+yarn serve
+
+
+porta :8080
+
+http://localhost:8080/
 
 ### Compiles and hot-reloads for development
 ```
