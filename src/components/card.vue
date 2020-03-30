@@ -30,7 +30,7 @@ export default {
 
 <style lang="scss">
 .card {
-  min-width: 100%;
+  min-width: 150%;
   width: 100%;
   min-height: 200px;
   margin-top: 1rem;

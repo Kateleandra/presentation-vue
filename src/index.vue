@@ -70,6 +70,9 @@ export default {
   height: 100px;
 }
 .professional{
+  min-width: 100%;
+  width: 100%;
+  min-height: 200px;
   display: flex;
   flex-direction: column;
   margin: 2rem auto 0 auto;
