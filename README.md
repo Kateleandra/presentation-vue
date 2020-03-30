@@ -1,10 +1,14 @@
 # presentation
 
 ## Projeto em Vuejs
-```
+
 Abrir pelo terminar a repositório "presentation" executar:
-npm install ou yarn
-```
+
+### Instalação
+
+Faça o clone do repositório e no terminal navegue até a pasta;
+Instale as dependências do projeto com <b>npm install</b> ou <b>yarn</b>;
+
 Logo em seguida comando:
 
 yarn serve
@@ -14,25 +18,8 @@ porta :8080
 
 http://localhost:8080/
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Api
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Clonar repositório https://github.com/Kateleandra/api-node-presentation
 
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+executar para npm run serve para iniciar api
